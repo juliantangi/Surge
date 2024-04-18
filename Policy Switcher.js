@@ -27,9 +27,15 @@ async function main() {
   try {
     const NetworkInfo = await getNetworkInfo();
     if (NetworkInfo!= 'Hong Kong'){
-			$surge.setSelectGroupPolicy('Ponte', 'Hong Kong');
-    $notification.post('SFW Check', '','IP address has been switched to Hong Kong.');
+			$surge.setSelectGroupPolicy('Work', 'Hong Kong');
+    $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
 		}
+
+    if (NetworkInfo!= 'Hong Kong' && NetworkInfo!= 'China'){
+			$surge.setSelectGroupPolicy('AI', 'DIRECT');
+		} else {
+      $surge.setSelectGroupPolicy('AI', 'Non-Hong Kong');
+    }
 		
   } catch (error) {
     console.log(error);
