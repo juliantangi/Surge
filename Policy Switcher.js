@@ -13,7 +13,7 @@ function getNetworkInfo() {
         reject('error unknown');
       } else if (response.status === 200) {
         const info = JSON.parse(data);
-        let networkinfo = info.query + info.country;
+        let networkinfo = info.country_name;
         resolve(networkinfo);
       } else {
 				errorcode=response.status
