@@ -29,7 +29,9 @@ async function main() {
     if (NetworkInfo!= 'Hong Kong'){
 			$surge.setSelectGroupPolicy('Work', 'Hong Kong');
     $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
-		}
+		} else {
+      $surge.setSelectGroupPolicy('Work', 'DIRECT');
+    }
 
     if (NetworkInfo!= 'Hong Kong' && NetworkInfo!= 'China'){
 			$surge.setSelectGroupPolicy('AI', 'DIRECT');
