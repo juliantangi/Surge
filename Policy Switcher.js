@@ -28,7 +28,7 @@ async function main() {
     const NetworkInfo = await getNetworkInfo();
     if (NetworkInfo!= 'Hong Kong'){
 			$surge.setSelectGroupPolicy('Work', 'Hong Kong');
-    $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
+      $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
 		} else {
       $surge.setSelectGroupPolicy('Work', 'DIRECT');
     }
@@ -40,7 +40,10 @@ async function main() {
     }
 
     if ($network.wifi.ssid === 'Iontrading'){
-      $surge.setOutboundMode('direct')
+      $surge.setOutboundMode('direct');
+      $notification.post('Connected to Working Place Wifi', '','Outbound Mode has been switched to Direct.');
+    } else {
+      $surge.setOutboundMode('rule');
     }
 		
   } catch (error) {
