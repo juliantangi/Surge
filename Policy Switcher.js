@@ -38,6 +38,10 @@ async function main() {
 		} else {
       $surge.setSelectGroupPolicy('AI', 'Non-Hong Kong');
     }
+
+    if ($network.wifi.ssid === 'Iontrading'){
+      $surge.setOutboundMode('direct')
+    }
 		
   } catch (error) {
     console.log(error);
