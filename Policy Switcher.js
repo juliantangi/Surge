@@ -39,6 +39,14 @@ async function main() {
       $surge.setSelectGroupPolicy('AI', 'Non-Hong Kong');
     }
 
+    if (NetworkInfo === 'Japan'){
+			$surge.setSelectGroupPolicy('Netflix', 'DIRECT');
+      $surge.setSelectGroupPolicy('Gaming', 'DIRECT');
+		} else {
+      $surge.setSelectGroupPolicy('Netflix', 'Japan');
+      $surge.setSelectGroupPolicy('Gaming', 'Japan');
+    }
+
     if ($network.wifi.ssid === 'Iontrading'){
       $surge.setOutboundMode('direct');
       $notification.post('Connected to Working Place Wifi', '','Outbound Mode has been switched to Direct.');
