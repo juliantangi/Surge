@@ -40,11 +40,11 @@ async function main() {
     }
 
     if (NetworkInfo === 'Japan'){
-			$surge.setSelectGroupPolicy('Netflix', 'DIRECT');
+			// $surge.setSelectGroupPolicy('Netflix', 'DIRECT');
       $surge.setSelectGroupPolicy('Gaming', 'DIRECT');
-      $notification.post('Netflix & Gaming Changed to Direct', '','Proxy rule has been switched to Direct.');
+      $notification.post('Gaming Changed to Direct', '','Proxy rule has been switched to Direct.');
 		} else {
-      $surge.setSelectGroupPolicy('Netflix', 'Japan');
+      // $surge.setSelectGroupPolicy('Netflix', 'Japan');
       $surge.setSelectGroupPolicy('Gaming', 'Japan');
     }
 
