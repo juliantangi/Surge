@@ -48,12 +48,12 @@ async function main() {
       $surge.setSelectGroupPolicy('Gaming', 'Japan');
     }
 
-    if ($network.wifi.ssid === 'Iontrading'){
-      $surge.setOutboundMode('direct');
-      $notification.post('Connected to Working Place Wifi', '','Outbound Mode has been switched to Direct.');
-    } else {
-      $surge.setOutboundMode('rule');
-    }
+    // if ($network.wifi.ssid === 'Iontrading'){
+    //   $surge.setOutboundMode('direct');
+    //   $notification.post('Connected to Working Place Wifi', '','Outbound Mode has been switched to Direct.');
+    // } else {
+    //   $surge.setOutboundMode('rule');
+    // }
 		
   } catch (error) {
     console.log(error);
