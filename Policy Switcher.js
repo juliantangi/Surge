@@ -27,7 +27,7 @@ async function main() {
   try {
     const NetworkInfo = await getNetworkInfo();
     if (NetworkInfo!= 'Hong Kong'){
-			$surge.setSelectGroupPolicy('Work', 'Hong Kong');
+			$surge.setSelectGroupPolicy('Work', '🦈Hong Kong');
       $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
 		} else {
       $surge.setSelectGroupPolicy('Work', 'DIRECT');
@@ -36,7 +36,7 @@ async function main() {
     if (NetworkInfo!= 'Hong Kong' && NetworkInfo!= 'China'){
 			$surge.setSelectGroupPolicy('AI', 'DIRECT');
 		} else {
-      $surge.setSelectGroupPolicy('AI', 'Non-Hong Kong');
+      $surge.setSelectGroupPolicy('AI', '🦈Japan');
     }
 
     if (NetworkInfo === 'Japan'){
@@ -45,7 +45,7 @@ async function main() {
       $notification.post('Gaming Changed to Direct', '','Proxy rule has been switched to Direct.');
 		} else {
       // $surge.setSelectGroupPolicy('Netflix', 'Japan');
-      $surge.setSelectGroupPolicy('Gaming', 'Japan');
+      $surge.setSelectGroupPolicy('Gaming', '🦈Japan');
     }
 
     // if ($network.wifi.ssid === 'Iontrading'){
