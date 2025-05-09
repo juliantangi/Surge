@@ -43,10 +43,10 @@ async function main() {
 			// $surge.setSelectGroupPolicy('Netflix', 'DIRECT');
       $surge.setSelectGroupPolicy('Gaming', 'DIRECT');
       $notification.post('Gaming Changed to Direct', '','Proxy rule has been switched to Direct.');
-		} else {
+		} //else {
       // $surge.setSelectGroupPolicy('Netflix', 'Japan');
-      $surge.setSelectGroupPolicy('Gaming', '🦈Japan');
-    }
+      //$surge.setSelectGroupPolicy('Gaming', '🦈Japan');
+    //}
 
     // if ($network.wifi.ssid === 'Iontrading'){
     //   $surge.setOutboundMode('direct');
