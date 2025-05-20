@@ -27,7 +27,12 @@ async function main() {
   try {
     const NetworkInfo = await getNetworkInfo();
     if (NetworkInfo!= 'Hong Kong'){
-			$surge.setSelectGroupPolicy('Work', '🦈Hong Kong');
+      if ($network.wifi.ssid === '2G58208A33C908'){
+        $surge.setSelectGroupPolicy('TAG', '🇭🇰 Hong Kong');
+        $surge.setSelectGroupPolicy('Work', 'TAG');
+      } else {
+        $surge.setSelectGroupPolicy('Work', '🦈Hong Kong');
+      }
       $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
 		} else {
       $surge.setSelectGroupPolicy('Work', 'DIRECT');
