@@ -27,17 +27,15 @@ async function main() {
   try {
     const NetworkInfo = await getNetworkInfo();
     if (NetworkInfo!= 'Hong Kong'){
-      $surge.setSelectGroupPolicy('TAG', '🇭🇰 Hong Kong');
-      $surge.setSelectGroupPolicy('Work', 'TAG');
-      // if ($network.wifi.ssid === '2G58208A33C908'){
-      //   $surge.setSelectGroupPolicy('TAG', '🇭🇰 Hong Kong');
-      //   $surge.setSelectGroupPolicy('Work', 'TAG');
-      // } else {
-      //   $surge.setSelectGroupPolicy('Work', '🦈Hong Kong');
-      // }
-      $notification.post('Work Proxy Rule Check', '','IP address has been switched to Hong Kong.');
+      $surge.setSelectGroupPolicy('Work', 'Ponte');
+      $notification.post('Work Proxy Rule Check', '','Working IP has been switched to Ponte.');
 		} else {
       $surge.setSelectGroupPolicy('Work', 'DIRECT');
+    }
+    
+    if (NetworkInfo== 'China'){
+      $surge.setOutboundMode('global-proxy')
+      $notification.post('Outbound Mode Changed to Global', '','Remember to select Ponte as proxy server.');
     }
 
     if (NetworkInfo!= 'Hong Kong' && NetworkInfo!= 'China'){
