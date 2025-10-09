@@ -203,5 +203,6 @@ DOMAIN-SUFFIX,ysjwj.com
 DOMAIN-SUFFIX,yupoo.com
 DOMAIN-SUFFIX,zhstatic.zhihu.com
 DOMAIN-SUFFIX,gdt.qq.com
-DOMAIN-SUFFIX,gdtimg.com
-DOMAIN-SUFFIX,ugdtimg.com
+DOMAIN-SUFFIX,adsmind.gdtimg.com
+DOMAIN,adsmind.ugdtimg.com,REJECT
+DOMAIN,pgdt.ugdtimg.com,REJECT
