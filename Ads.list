@@ -204,7 +204,7 @@ DOMAIN-SUFFIX,yupoo.com
 DOMAIN-SUFFIX,zhstatic.zhihu.com
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,adsmind.gdtimg.com
-DOMAIN,adsmind.ugdtimg.com,REJECT
-DOMAIN,pgdt.ugdtimg.com,REJECT
-DOMAIN,heic.alicdn.com,reject
-DOMAIN-SUFFIX,h-adashx.ut.taobao.com,reject
+DOMAIN,adsmind.ugdtimg.com
+DOMAIN,pgdt.ugdtimg.com
+DOMAIN,heic.alicdn.com
+DOMAIN-SUFFIX,h-adashx.ut.taobao.com
