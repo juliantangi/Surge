@@ -1,0 +1,27 @@
+# ======== Apple相关 ========
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+
+# ======== 核心域名 ========
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpclient.com
+
+# ======== CDN & 静态资源 ========
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,cdn.usefathom.com
+
+# ======== 认证 & 内容 ========
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+
+# ======== 关键字兜底 ========
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,anthropic
