@@ -1,0 +1,8 @@
+#!name=Adblock (iOS)
+#!desc=Loads all 120,000+ blocking rules. Only works on iOS.
+#!system=ios
+
+[Rule]
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT,extended-matching
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT,pre-matching
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT,extended-matching
