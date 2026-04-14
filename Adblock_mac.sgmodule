@@ -1,0 +1,10 @@
+#!name=Adblock (Mac)
+#!desc=Loads all 200,000+ blocking rules. Only works on Mac.
+#!system=mac
+
+[Rule]
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject.conf,REJECT,extended-matching
+DOMAIN-SET,https://ruleset.skk.moe/List/domainset/reject_extra.conf,REJECT
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-drop.conf,REJECT,pre-matching
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject.conf,REJECT,extended-matching
+RULE-SET,https://ruleset.skk.moe/List/non_ip/reject-no-drop.conf,REJECT,extended-matching
