@@ -43,7 +43,7 @@ async function main() {
     if (NetworkInfo!= 'Hong Kong' && NetworkInfo!= 'China'){
 			$surge.setSelectGroupPolicy('AI', 'DIRECT');
 		} else {
-      $surge.setSelectGroupPolicy('AI', '🦈Japan');
+      $surge.setSelectGroupPolicy('AI', '🦈Singapore');
     }
 
     if (NetworkInfo === 'Japan'){
