@@ -25,8 +25,11 @@ DOMAIN,anthropic-com.ghost.io
 # ======== NotebookLM ========
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,aida.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
+DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+# DOMAIN-SUFFIX,subscriptionsfirstparty-pa.googleapis.com
+# DOMAIN,alkalicore-pa.clients6.google.com
+# DOMAIN,aida.googleapis.com
 
 # ======== 关键字兜底 ========
 DOMAIN-KEYWORD,claude
