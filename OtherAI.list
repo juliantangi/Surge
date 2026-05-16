@@ -29,7 +29,7 @@ DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
 DOMAIN-SUFFIX,lh3.googleusercontent.com
 DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
-DOMAIN-KEYWORD,notebooklm
+DOMAIN-SUFFIX,oauth2.googleapis.com
 # DOMAIN-SUFFIX,subscriptionsfirstparty-pa.googleapis.com
 # DOMAIN,alkalicore-pa.clients6.google.com
 # DOMAIN,aida.googleapis.com
@@ -37,3 +37,4 @@ DOMAIN-KEYWORD,notebooklm
 # ======== 关键字兜底 ========
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,notebooklm
