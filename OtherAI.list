@@ -22,6 +22,12 @@ DOMAIN,cdn.usefathom.com
 DOMAIN,anthropic.auth0.com
 DOMAIN,anthropic-com.ghost.io
 
+# ======== NotebookLM ========
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+# DOMAIN,alkalicore-pa.clients6.google.com
+# DOMAIN,aida.googleapis.com
+
 # ======== 关键字兜底 ========
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,anthropic
