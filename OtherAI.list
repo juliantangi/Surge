@@ -26,9 +26,9 @@ DOMAIN,anthropic-com.ghost.io
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
-DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
 DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
-DOMAIN-SUFFIX,oauth2.googleapis.com
+# DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+# DOMAIN-SUFFIX,oauth2.googleapis.com
 # DOMAIN-SUFFIX,subscriptionsfirstparty-pa.googleapis.com
 # DOMAIN,alkalicore-pa.clients6.google.com
 # DOMAIN,aida.googleapis.com
