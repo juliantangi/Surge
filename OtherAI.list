@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,lh3.googleusercontent.com
 # DOMAIN-SUFFIX,subscriptionsfirstparty-pa.googleapis.com
 # DOMAIN,alkalicore-pa.clients6.google.com
 # DOMAIN,aida.googleapis.com
