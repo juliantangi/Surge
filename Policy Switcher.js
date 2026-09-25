@@ -33,12 +33,12 @@ async function main() {
       $surge.setSelectGroupPolicy('Work', 'DIRECT');
     }
     
-    if (NetworkInfo== 'China'){
-      $surge.setOutboundMode('global-proxy')
-      $notification.post('Outbound Mode Changed to Global', '','Remember to select Ponte as proxy server.');
-    } else {
-      $surge.setOutboundMode('rule')
-    }
+    // if (NetworkInfo== 'China'){
+    //   $surge.setOutboundMode('global-proxy')
+    //   $notification.post('Outbound Mode Changed to Global', '','Remember to select Ponte as proxy server.');
+    // } else {
+    //   $surge.setOutboundMode('rule')
+    // }
 
     if (NetworkInfo!= 'Hong Kong' && NetworkInfo!= 'China' && NetworkInfo!= 'Macau' && NetworkInfo!= 'Macao'){
 			$surge.setSelectGroupPolicy('AI', 'DIRECT');
